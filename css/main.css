@@ -12,19 +12,26 @@ p {
 #logo {
   font-weight: 600;
   font-size: medium;
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
   display: inline;
-  padding: 5px;
+  padding-left: 0 px;
+  text-align: justify;
 }
 ul {
   list-style-type: none;
-  padding-left: 0;
-  text-decoration: none;
-  color: black;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  overflow: hidden;
 }
 
-a {
-  color: black;
+li {
+  text-decoration: none;
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 12px 14px;
+  display: block;
 }
 
 /*main*/
