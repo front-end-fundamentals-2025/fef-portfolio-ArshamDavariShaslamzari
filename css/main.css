@@ -63,35 +63,44 @@ main {
   width: 100%;
 }
 h1 {
-  padding-left: 25rem;
+  padding-left: 20rem;
   align-items: center;
 }
 
-/*aside*/
-.aside-dives {
-  background-color: rgb(157, 206, 206);
-  grid-area: aside;
-  width: 100%;
+.image-captions {
+  text-align: center;
+  text-decoration: solid blue;
 }
 
-#profile-pic {
-  text-decoration-color: aliceblue;
-}
-.aside-pic {
+/*aside*/
+aside {
   width: 100%;
-  border-radius: 20px;
+  .aside-sections {
+    background-color: rgb(157, 206, 206);
+    grid-area: aside;
+    width: 100%;
+    .button {
+      padding-left: 25rem;
+      button {
+        border-radius: 5rem;
+        color: whitesmoke;
+        background-color: blue;
+        border-color: none;
+      }
+    }
+    .aside-pic {
+      border-top-left-radius: 5rem;
+      width: 100%;
+    }
+  }
 }
 
 /* category section */
 .category-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-
-figure {
-  margin-left: 0;
-  .category-container {
-    width: 100%;
+  .category-image {
+    border-radius: 8rem;
   }
 }
 
