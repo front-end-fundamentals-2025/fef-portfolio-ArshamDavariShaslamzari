@@ -95,13 +95,18 @@ aside {
     grid-area: aside;
     width: 100%;
     .button {
-      padding-left: 10rem;
+      padding-left: 25rem;
       button {
         border-radius: 5rem;
         color: whitesmoke;
         background-color: blue;
         border-color: none;
       }
+    }
+    #profile-caption {
+      text-indent: 1rem;
+      text-align: left;
+      padding: 1rem;
     }
     .aside-pic {
       border-top-left-radius: 5rem;
