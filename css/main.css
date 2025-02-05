@@ -122,6 +122,9 @@ aside {
   grid-template-columns: repeat(2, 1fr);
   .category-image {
     border-radius: 8rem;
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-timing-function: ease ease-in-out;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -136,4 +139,14 @@ footer {
   margin-top: 3rem;
   border-top: 1px solid black;
   grid-area: footer;
+}
+
+/*key frames for animations*/
+
+@keyframes scale {
+  25% {
+    transform: scale(1.1);
+  }
+}
+@keyframes shake {
 }
