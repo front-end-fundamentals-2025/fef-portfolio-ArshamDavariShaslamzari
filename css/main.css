@@ -101,6 +101,9 @@ aside {
         color: whitesmoke;
         background-color: blue;
         border-color: none;
+        animation-name: shake;
+        animation-duration: 1s;
+        animation-timing-function: ease ease-in-out;
       }
     }
     #profile-caption {
@@ -120,7 +123,7 @@ aside {
 .category-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  .category-image {
+  .category-image:hover {
     border-radius: 8rem;
     animation-name: scale;
     animation-duration: 1s;
@@ -147,6 +150,12 @@ footer {
   25% {
     transform: scale(1.1);
   }
+  60% {
+    transform: rotate(-20 deg) scale(1.1);
+  }
 }
 @keyframes shake {
+  60% {
+    transform: scale(1.2);
+  }
 }
