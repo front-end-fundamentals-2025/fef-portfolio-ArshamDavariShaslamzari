@@ -64,6 +64,13 @@ li {
   display: block;
 }
 
+#nav-button-dark{
+  background-color: black;
+}
+#nav-button-light{
+  background-color:whitesmoke;
+  color: black;
+}
 @media screen and (max-width: 500px) {
 }
 
