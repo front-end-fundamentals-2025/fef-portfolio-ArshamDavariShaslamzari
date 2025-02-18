@@ -4,3 +4,6 @@ const bodyElement = document.querySelector("body");
 darkPattern.addEventListener("click", function (event){
     bodyElement.style.backgroundColor = "#023060";
 });
+lightPattern.addEventListener("click", function(event){
+    bodyElement.style.backgroundColor = "#ffffff"
+})
