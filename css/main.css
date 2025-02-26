@@ -64,11 +64,11 @@ li {
   display: block;
 }
 
-#nav-button-dark{
+#nav-button-dark {
   background-color: black;
 }
-#nav-button-light{
-  background-color:rgb(12, 6, 6);
+#nav-button-light {
+  background-color: rgb(12, 6, 6);
   color: black;
 }
 @media screen and (max-width: 500px) {
